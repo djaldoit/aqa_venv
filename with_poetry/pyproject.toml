@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "with-poetry"
+version = "0.1.0"
+description = ""
+authors = ["Dzhalal Atabaev <djaldoit@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selene = "2.0.0rc9"
+pytest = "^8.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.2.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
